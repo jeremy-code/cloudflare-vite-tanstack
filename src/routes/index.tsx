@@ -10,6 +10,10 @@ function Home() {
         Edit <code>src/routes/index.tsx</code> to get started.
       </p>
       {import.meta.env.BASE_URL}
+      {import.meta.env.MODE}
+      {import.meta.env.DEV}
+      {import.meta.env.PROD}
+      {import.meta.env.SSR}
     </div>
   );
 }
