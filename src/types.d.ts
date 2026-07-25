@@ -1,0 +1,1 @@
+let CONSTANT: string;

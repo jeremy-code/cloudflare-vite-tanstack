@@ -10,7 +10,7 @@ import { cloudflare } from "@cloudflare/vite-plugin";
 const config = defineConfig({
   resolve: { tsconfigPaths: true },
   define: {
-    // CONSTANT: JSON.stringify(import.meta.env),
+    CONSTANT: JSON.stringify(import.meta.env),
   },
   plugins: [
     devtools(),
